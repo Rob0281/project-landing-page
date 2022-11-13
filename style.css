@@ -2,13 +2,31 @@
 body{margin: 0px;}
 header, .hero{background-color: #29465e; width: 100%; display: flex; padding-left: 10px; padding-right: 10px;}
 #compass{width: 150px; padding: 10px 20px}
-ul{list-style: none; display: flex; align-items: flex-end; margin-left:auto; padding-right: 38px; justify-content: space-between;}
+.link-list{list-style: none; display: flex; align-items: flex-end; margin-left:auto; padding-right: 38px; justify-content: space-between;}
 .header-link{color: #cdb380; margin-left: 10px; font-size: 24px;}
 
 
 .hero{display: flex; gap: 200px; padding-bottom: 20px;}
-.hero-txt{flex-direction: column; width: 400px; flex-wrap: wrap; padding-left: 150px; }
+.txt-button{display: flex; flex-direction: column;}
+.hero-txt{flex-direction: column; width: 400px; flex-wrap: wrap; padding-left: 150px; padding-bottom: 20px; }
+#hero-button{height: 35px; background-color: #3882F6;  color: #E5E7EB;  border-color: #E5E7Eb; border-radius: 5px; margin-left: 525px; }
 .hero-main{font-size: 48px; font-weight: bold; color: #cdb380}
 .hero-second{font-size: 18px; color: #E5E7EB}
-.hero-pic{display: flex; margin-left: ;}
+
 #hero-img{width: 400px; border-radius: 8px;  }
+
+#info-head{font-size: 36px; font-weight: bold; text-align: center;}
+.info-items{display: flex; gap: 100px; justify-content: center;}
+.card-pic{width: 100px; border-radius: 8px;}
+#bell{height: 67px;}
+
+.inspiration{background-color: #E5E7Eb ; width: 100%; height: 200px; display: flex; flex-direction: column; justify-content: center;}
+.ins-txt{font-weight: lighter; width: 40%; align-self: center; margin-bottom: 5px;}
+.ins-name{align-self: center; margin-top: 0;}
+
+.action-sec{display: flex; justify-content: center;}
+.action{display: flex; background-color: #3882F6 ; width: 700px; border-radius: 5px; margin: 50px;  }
+.action-txt{padding-left: 75px; color: #E5E7EB;}
+#action-button{ height: 35px; background-color: #3882F6;  color: #E5E7EB;  border-color: #E5E7Eb; border-radius: 5px; justify-self: center; align-self: center; margin-left: 250px;}
+
+footer{background-color: #29465e; text-align: center; padding: 20px 0px;}
